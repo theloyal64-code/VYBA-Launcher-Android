@@ -80,7 +80,7 @@ class MainActivity : Activity() {
             text="ALL APPS"; textSize=20f; setTextColor(Color.WHITE)
         },LinearLayout.LayoutParams(-1,dp(44)))
         search=EditText(this).apply {
-            hint="Search apps"; singleLine=true; textSize=15f
+            hint="Search apps"; setSingleLine(true); textSize=15f
             setTextColor(Color.WHITE); setHintTextColor(0x99FFFFFF.toInt())
             background=bg(0x553A4658); setPadding(dp(14),0,dp(14),0)
         }
